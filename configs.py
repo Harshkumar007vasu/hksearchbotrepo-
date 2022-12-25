@@ -8,13 +8,13 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "24624472"))
     API_HASH = os.getenv("API_HASH", "5a8118c7bd9bae30fa63a96cc98ba9c1")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5698506256:AAEfBKaZrKDe--_AYag6VNBh5EW4L9aM1Y0")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "@linkseach_bot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "linkseach_bot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLoBu6LL8ex-q4epo59M9_x2HI005z38MnBpNb345n-9w8jhxvRpHfN8oMn_b52oGYow0_TW7HaFj1PiQTouvR5r3HiFruxnobL2Xz1Y9IK38MFuJVvo8WbWEQGlE00pXRZ42hP22t1R1aukAd1_tLxEi18TZiaAny18gV9_6wKe2iAt8hysy2DDvDgUOlcWIbDs07_i7Gn243uxrkrBARrzqjRcvgNyizohSZzH2oKdX9rZEceWoqGJQv0Tl1p8wEMCh8iM90qZhlpvhuxcpUbqVOsi_uSA22VegzTqA1q1PJ-tdbQAhsKZwhRuDLVED7D3ErhJr68KJH6I6wCcbKLa4Ls=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001595406749")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "@linkseach_bot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "linkseach_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5161213531"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@harsh00790")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "@backup_hk007")
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "harsh00790")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "backup_hk007")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -34,7 +34,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001715249377"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "@hk_update07")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "hk_update07")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
@@ -45,7 +45,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @CyniteSupport 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @backup_hk007 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -54,7 +54,7 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 ᴛᴇʀᴀ ʙᴏx - ᴀɢᴀʀ ᴀᴘᴘᴋᴏ ɴᴀʜɪ ᴘᴀᴛᴀ ᴋɪ ᴛᴇʀᴀʙᴏx sᴇ ᴍᴏᴠɪᴇs ᴋᴀɪsᴇ ᴅᴇᴋʜᴇ ᴛᴏ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢᴀʏᴇ ᴛᴇʀᴀ ʙᴏx ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇ
 
-ʀᴇɢᴀʀᴅs - @CyniteBackup"""
+ʀᴇɢᴀʀᴅs - @Backup_hk007"""
     ABOUT_MDISK_TEXT = """
 𝗠𝗱𝗶𝘀𝗸 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो Mx Player App डाउनलोड करले😊👍
